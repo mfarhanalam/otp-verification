@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>OTP Verification</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <svg class="logo" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="#4F46E5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M8 14C8 14 9.5 16 12 16C14.5 16 16 14 16 14" stroke="#4F46E5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M9 9H9.01" stroke="#4F46E5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M15 9H15.01" stroke="#4F46E5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+    
+    <h2>Verify your email address</h2>
+    <p>We've sent a 4-digit verification code to your email address</p>
+    <div class="email-display">user@example.com</div>
+    
+    <div class="otp-inputs">
+      <input type="text" maxlength="1" id="otp1" inputmode="numeric" pattern="[0-9]*" />
+      <input type="text" maxlength="1" id="otp2" inputmode="numeric" pattern="[0-9]*" />
+      <input type="text" maxlength="1" id="otp3" inputmode="numeric" pattern="[0-9]*" />
+      <input type="text" maxlength="1" id="otp4" inputmode="numeric" pattern="[0-9]*" />
+    </div>
+    
+    <button class="btn" id="verifyBtn">Verify OTP</button>
+    
+    <div class="resend-otp">
+      Didn't receive code? <a href="#" id="resendLink">Resend OTP</a>
+      <div class="timer" id="timer">(00:30)</div>
+    </div>
+    
+    <div id="message"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
