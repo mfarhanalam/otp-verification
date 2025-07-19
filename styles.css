@@ -7,14 +7,14 @@
 
 body {
   height: 100vh;
-  background: linear-gradient(135deg, #f3f4f6, #e0e7ff);
+  background: linear-gradient(135deg, #1a2036, #202742);
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .container {
-  background-color: #111827;
+  background-color: #252b45;
   padding: 2.5rem;
   border-radius: 1rem;
   box-shadow: 0 1rem 2.5rem rgba(0, 0, 0, 0.2);
@@ -69,15 +69,15 @@ p {
   text-align: center;
   border-radius: 0.75rem;
   border: 2px solid #4b5563;
-  background-color: #1f2937;
+  background-color: #1a2036;
   color: #fff;
   outline: none;
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .otp-inputs input:focus {
-  border-color: #6366f1;
-  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.3);
+  border-color: #22233f;
+  box-shadow: 0 0 0 3px rgba(29, 30, 54, 0.3);
 }
 
 .otp-inputs input.filled {
@@ -89,17 +89,17 @@ p {
   padding: 0.875rem;
   font-size: 1rem;
   font-weight: 600;
-  background-color: #4f46e5;
+  background-color: #1a1f37;
   color: #fff;
   border: none;
-  border-radius: 0.75rem;
+  border-radius: 0.25rem;
   cursor: pointer;
   transition: all 0.3s;
   margin-bottom: 1.5rem;
 }
 
 .btn:hover {
-  background-color: #4338ca;
+  background-color: #080a14;
   transform: translateY(-1px);
 }
 

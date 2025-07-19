@@ -34,11 +34,11 @@ A sleek and modern OTP (One-Time Password) verification component designed for f
 
 | Element              | Value                      |
 |----------------------|----------------------------|
-| Background           | `#111827` (dark mode)      |
-| Input Box Border     | `#4b5563` (default)         |
+| Background           | `#252b45` (dark mode)      |
+| Input Box Border     | `#4b5563` (default)        |
 | Valid Border Color   | `#10b981` (green)          |
 | Invalid Border Color | `#ef4444` (red)            |
-| Primary Button       | `#4f46e5` (blue)           |
+| Primary Button       | `#1a1f37` (bluish-purple)  |
 | Font Family          | `'Poppins', sans-serif`    |
 
 ---
